@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+.login-container    {
+    padding: 25px;
+    background-color: #8fbc8f;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input   {
+    width: 100%;
+}
+
+.warning    {
+    color:  red;
+    font-size: small;
+    min-height: 16px;
+}
